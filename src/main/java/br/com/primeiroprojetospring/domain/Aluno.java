@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
+import javax.persistence.Column;
 @Entity
 public class Aluno implements Serializable {
 
@@ -18,6 +18,7 @@ public class Aluno implements Serializable {
 	private Integer id;
 
 	@Column(name = "NOME_ALUNO")
+
 	private String nome;
 
 	public String getNome() {
