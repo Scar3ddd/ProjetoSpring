@@ -29,15 +29,15 @@ public class Init implements ApplicationListener<ContextRefreshedEvent> {
 	public void onApplicationEvent(ContextRefreshedEvent event) {
 
 			Aluno aluno1 = new Aluno();
-			aluno1.setNome("Fulano");
+			aluno1.setNome("André");
 			alunoService.salvar(aluno1);
 	
 			Aluno aluno2 = new Aluno();
-			aluno2.setNome("Roberto");
+			aluno2.setNome("Sandro");
 			alunoService.salvar(aluno2);
 	
 			Aluno aluno3 = new Aluno();
-			aluno3.setNome("Ciclano");
+			aluno3.setNome("Amanda");
 			alunoService.salvar(aluno3);
 	
 			List<Aluno> listaAluno = alunoService.buscarTodosAlunos();
