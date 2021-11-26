@@ -1,4 +1,5 @@
 package br.com.primeiroprojetospring.domain;
+
 import java.io.Serializable;
 
 import javax.persistence.Column;
@@ -9,16 +10,16 @@ import javax.persistence.Id;
 
 @Entity
 public class Aluno implements Serializable {
-	
+
 	private static final long serialVersionUID = -886604392341594251L;
 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Id
 	private Integer id;
-	
-	@Column(name="NOME_ALUNO")
+
+	@Column(name = "NOME_ALUNO")
 	private String nome;
-	
+
 	public String getNome() {
 		return nome;
 	}
