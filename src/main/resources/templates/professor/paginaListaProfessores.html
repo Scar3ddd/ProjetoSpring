@@ -34,8 +34,8 @@
 								<td th:text="${professor.nome}"></td>
 								<td>
 									<div class="btn-group pull-right">
-										<a class="btn btn-sm btn-primary">ALTERAR</a> <a
-											class="delete btn btn-sm btn-danger">EXCLUIR</a>
+										<a class="btn btn-sm btn-primary">ALTERAR</a> 
+										<a class="delete btn btn-sm btn-danger">EXCLUIR</a>
 									</div>
 								</td>
 							</tr>
@@ -44,7 +44,7 @@
 				</div>
 			</div>
 		</div>
-		<a class="btn tbn-sm btn-success">CADASTRAR NOVO DOCUMENTO</a>
+		<a class="btn tbn-sm btn-success" th:href="@{/professor/cadastrar}">CADASTRAR NOVO DOCUMENTO</a>
 	</div>
 
 </body>

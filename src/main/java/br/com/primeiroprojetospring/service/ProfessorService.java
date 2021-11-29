@@ -14,9 +14,8 @@ public class ProfessorService {
 	public List<Professor> buscarTodosProfessor() {
 		return proRepository.findAll();
 	}
-
-	public Professor salvarProfessor(Professor pro) {
-		return proRepository.save(pro);
+	public Professor salvar (Professor pro) {
+		return proRepository.save(pro);	
 	}
 
 }
