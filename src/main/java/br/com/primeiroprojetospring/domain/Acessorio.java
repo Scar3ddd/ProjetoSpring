@@ -9,16 +9,18 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Chave implements Serializable {
+public class Acessorio implements Serializable {
+	
+	private static final long serialVersionUID = -6289229294210689983L;
 
-	private static final long serialVersionUID = 4492246752547242827L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
-	@Column(name="CODIGO_CHAVE")
-	private String codigo;
+
+	@Column(name="NOME_ACESSORIO")
+	private String nome;
 
 	public Integer getId() {
 		return id;
@@ -28,12 +30,11 @@ public class Chave implements Serializable {
 		this.id = id;
 	}
 
-	public String getCodigo() {
-		return codigo;
+	public String getNome() {
+		return nome;
 	}
 
-	public void setCodigo(String codigo) {
-		this.codigo = codigo;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
-
 }
