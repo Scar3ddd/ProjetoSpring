@@ -1,33 +1,275 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+UNIVERSIDADE CRUZEIRO DO SUL- UNICSUL
+CURSO DE MEDICINA VETERINÁRIA
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+
+
+
+
+MARIANA BOCCHINO PAULO
+
+
+
+
+
+SARCOMA DE APLICAÇÃO EM FELINOS DOMÉSTICOS
+
+
+
+
+
+
+
+
+
+
+
+SÃO PAULO, JUNHO DE 2022
+MARIANA BOCCHINO PAULO
+
+
+
+
+
+
+
+
+
+SARCOMA DE APLICAÇÃO EM FELINOS DOMÉSTICOS
+
+
+Trabalho de conclusão de curso, apresentado para obtenção do grau Médico Veterinário no curso de Medicina Veterinária da Universidade Cruzeiro do sul- UNICSUL
+Orientador:  Prof. Juan Justino de Araújo Neves
+
+
+
+
+
+
+
+
+
+
+
+
+
+SÃO PAULO, JUNHO DE 2022
+MARIANA BOCCHINO PAULO
+
+
+
+
+
+SARCOMA DE APLICAÇÃO EM FELINOS DOMÉSTICOS
+Trabalho de conclusão de curso aprovado pela Banca Examinadora para obtenção de grau Médico Veterinário, no curso de Medicina Veterinária da Universidade Cruzeiro do Sul - UNICSUL
+
+
+Aprovado em: XX de novembro de 2022
+
+
+
+
+Banca Examinadora
+
+
+
+
+    Prof. Juan Justino de Araújo Neves
+Universidade Cruzeiro do Sul
+
+
+(nome, instituição e titulação)
+
+
+
+(nome, instituição e titulação)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dedico meu trabalho a minha família, em especial aos meus pais Eliana e Sérgio, que sempre me apoiaram e me deram incentivo para seguir na Medicina Veterinária.
+
+AGRADECEDIMENTOS
+A Deus pela força em persistir em meu sonho, a minha família e marido por sempre me incentivar e acreditar em mim, aos meus queridos professores que são exemplos e inspirações na minha futura carreira e ao meu orientador por me auxiliar a trilhar o caminho para realizar meu trabalho com perfeição.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+‘’Podemos julgar o coração de um homem pela forma como ele trata os animais’’. - Immanuel Kant
+
+
+RESUMO
+
+
+
+Os sacomas de aplicação (SAF) são neoplasias malignas, que ocorrem após aplicações subcutâneas ou intramusculares, acometem felinos domésticos, embora ocorra em baixa prevalência, suas causas ainda não são bem esclarecidas. Acredita-se que a inflamação local que ocorre no tecido após receber a aplicação e a proto oncogenes como o p53, favorecem para que a mutação celular e transformação em celular de caráter maligno ocorram. Os tipos mais comuns são fibrossarcomas, podendo também ser sarcomas indiferenciados, lipossarcomas, osteossarcomas, condrossarcomas e outros tipos de SAF, em locais que receberam aplicações. Suas características histopatológicas são macrocariose, infiltradoinflamatório, pleomorfismo, necroso intralesional. Pode ser observado o aumento de volume na região, como principal sinal clínico, seu diagnostico se dá após realizar exame histopatológico e imunohistoquimico, tomografias e ressonância magnética são exames complementarem de importância para determinar o estadiamento e a presença de metástases. O tratamento mais indicado é a intervenção cirúrgica com ampla margem de excisão, associada a radioterapia, quimioterapia, imunoterapia e eletroquimioterapia.  O prognóstico depende do manejo aquedado da doença, o tempo entre o início da intervenção e o aparecimento da doença e podem ser prevenidos através das técnicas de aplicação.
+
+Palavras-chaves: sarcoma, aplicação, quimioterapia, oncologia felina.
+
+
+
+
+
+
+
+
+
+
+
+
+ABSTRACT 
+
+Application sacks (SAF) are still malignant neoplasms, which occur after subcutaneous or intramuscular applications, affect mainly felines, although they occur in low prevalence, their causes are not well understood. It is believed that the locally inflamed tissue does not occur proto in ongeneco to p, favoring the transformation so that a53 cellular transformation and cellular transformation as a malignant or malignant tumor. The most common types are fibrosarcomas, and may also be undifferentiated sarcomas, osteosarcomas, chondrosarcomas and other types of APS, in sites that have received applications. Its histopathological features are macrokaryosis, inflammatory infiltrate, pleomorphism, intralesional necrosis. The increase in volume in the region can be observed, as the main one, the diagnosis is given by complementary histopathological and histochemical exams, after performing important magnetic exams to determine the duration and presence of metastases. The most indicated treatment is therapy devices with wide excision margins, radiotherapy, chemotherapy, immunotherapy and electrochemotherapy. The prognosis depends on the warm management of the disease, the time between the beginning of the intervention and the appearance of the disease and can be prevented through application techniques.
+
+Keywords: sarcoma, application, chemotherapy, feline oncology.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SÚMARIO
+
+
+1 INTRODUÇÃO………………………………………………………..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INTRODUÇÃO
+Nos últimos tempos podemos observar a crescente da população de felinos domésticos mundialmente. Devido a fácil adaptação desses animais em pequenos espaços, continentes como a Europa notou-se que o número de felinos superar o número de cães (BEAVER, 2003), No Brasil estudos realizados por Dias et. Al (2004) mostrou uma relação de 30,7 entre a população de gatos e humanos. Seu comportamento peculiar e apreciado pelos donos, tornou os felinos parte da família em diversos domicílios, a preocupação com a saúde e a busca por atendimento veterinário cresceu proporcionalmente.
+Doenças como o Sarcoma de tecido mole, surgem após aplicações subcutâneas e intramusculares, principalmente em locais como dorso, área interescapular, paralombar, flanco, tórax, e musculatura femoral, locais onde comumente são realizadas aplicações de vacinas e mediações, essa patologia é conhecida como Sarcoma de aplicação. Essa relação entre a aplicação das vacinas e o surgimento da doença foi proposta pela primeira vez na Universidade da Pensilvânia, por veterinários patologistas que observaram aumento de casos de sarcoma de tecido mole após vacinação (HENDRICK & GOLDSCHMIDT, 1991; HENDRICK et al 1992). Após essa observação feita por eles, epidemiologistas confirmaram a associação entre a vacina e o surgimento de sarcomas de aplicação, nomeando essa patologia de sarcoma de aplicação ou sarcoma vacinal (KASS et al, 1993; KASS et al, 2003). Termo esse que caiu em desuso após a associação a outras 18 medicações injetáveis, não somente vacinas.
+Os sarcomas de aplicação correspondem a 46% dos neoplasmas cutâneos e subcutâneos em gatos, segundo os Oncologistas veterinários, não é possível prevenir sua ocorrência, sendo imprescindível a observação do tutor e do médico veterinário ao notar aumento de volume na região e seguir as recomendações internacionais (KLICKOWSKA, 2015). Sua forma mais comum é o fibrossarcoma, mas também foi descrito osteossarcomas, rabdomiossarcomas, sarcoma miofibroblástico, sarcoma histiocítico, tumor de células gigantes, neurofibrossarcoas e lipossarcomas (ESPLIN et al, 1993).
+O tratamento varia conforme o tipo de sarcoma, destacando a excisão cirúrgica, quimioterapia, eletroquimioterapia, imunoterapia e a radioterapia (SKORUPSKI, 2015), o desafio envolvendo sua epidemiologia e tratamento é grande, e de extrema importância para os profissionais e estudantes da Medicina Veterinária.
+
+
+
+
+EPIDEMIOLOGIA
+
+A incidência do sarcoma de aplicação mostrou que 0,63 a 3 sarcomas de aplicação cada 1000 felinos vacinados, uma baixa casuística dessa neoplasia, não estando apenas relacionada a aplicação, também a fatores individuais (GOBAR & KASS, 2002). No Reino Unido a incidência também é muito baixa, estima-se que 1/16.000 a 50.000 gatos por ano, 1/10.000 a 20.000 gatos consultados 1/5.000 a 12.5000 em vista de vacinação.
+O surgimento do sarcoma varia muito, podendo ser rápido após 4 semanas, ou até levar anos, 10 anos por exemplo, os sarcomas ocorrem com mais frequência em animais jovens, sendo mais comum entre 6 e 7 anos de idade (DODDY et al,1996; KASS et al, 1993, HENDRICK et al, 1994). Os casos de sarcoma de tecido mole do tipo fibrossarcoma representam 79,3%, seguidos por outros tipos (18,1%), lipossarcomas (1,3%), osteossarcomas (0,8%) e condrossarcomas (0,5%). Até dezembro de 1993, a maioria dos sarcomas de aplicação foi detectada na região interescapular (53,4%), membro pélvico direito (10,2%) e lateral do tórax direito (10,2%) seguidos por outros locais, como lateral do tórax esquerdo (9,1%) e membro pélvico esquerdo (8%). Como as publicações do Vaccine Associated Feline Sarcoma Task Force (VAFSTF) em 1996  o cenário mudou, foi possível definir ações, padronizar locais de aplicação de vacinas, avanço das pesquisar e planejamento a cerca dessa enfermidade (MORRISON et al, 2001). Após a publicação das recomendações, foi possível observar diminuição dos SAF em região intrerescapular de 53,4% para 39,5%, na região do tórax de 10,2% para 1,3%, em contrapartida ocorreu aumento de casos nas regiões do membro torácico direito de 1,1% para 9,5%, em membros pélvicos direito e lateral direita do abdômen 12,5% para 25%, membro pélvico esquerdo e lateral esquerda do abdômen de 11,4% para 13,8%, o mais indicado é a aplicação em membros  distais, para que em caso de aparecimento da doença seja possível conseguir margem cirúrgica e permitindo a possibilidade de amputação (MORRISON et al, 2001).
+
+
+
+
+
+
+
+
+
+
+ETIOPATOGENIA
+
+A hipótese mais aceita da origem do sarcoma de aplicação é a de que a inflamação crônica gerada no local estimula fatores de aumento e crescimento dos miofibroblastos, que se tornam malignos posteriormente (HARTMANN et al, 2015), 1 em cada 40 reações inflamatórias torna-se sarcoma de aplicação (KASS et al, 2003). Particularidade única presente nos felinos. O processo inflamatório no local promove liberação de citocinas como os TGFs e o fator de crescimento fibroblástico, que estimula a divisão celular e a angiogênese, podendo ocorrer mutação devido aos estímulos, e a carcinogênese, resultados nos sarcomas (MACY et al, 1996), comprovando que que o processo de inflamação é uma das chaves para a patogênese. Em 1985 nos Estados Unidos com o desenvolvimento das vacinas de FeLv e antirrábica inativadas, contendo alumínio, iniciou-se uma nova suspeita acerca do alumínio potencializar a inflamação (MCENTEE & PAGE, 2001). Lesões no local da aplicação mostraram áreas de paniculite granulomatosa, folículos linfóides periféricas, necrose central, material denso, linear e curvo e organizado em lamelas no interior dos macrófagos em torno do sarcoma, esse material foi identificado como o alumínio, não podendo descartar sua potencialização no processo inflamatório. A temperatura da vacina e o fármaco como metilprednisolona e a penicilina estão também associados ao risco.
+As vacinas apresentam maior risco de surgimento do SAF comparado a outras substâncias injetáveis.  As vacinas recombinantes induzem os SAFs com menor frequência, embora qualquer vacina possa favores o aparecimento do sarcoma (SRIVASTAV et al, 2012). A proteína p53 no núcleo das células tumorais foi demonstrada em 28 de 50 casos, mostrando papel oncogênico nas mutações que causam a expressão de células malignas, a imunoexpressão de fatores de crescimento de fibroblastos ácidos e básicos (FGF-a) e (FGF-b), mostrando sua participação no processo tumoral, principalmente o FGF-b, que está ligado ao processo inflamatório e as mitoses em 23 fibroblastos e miofibroblastos em SAF, o FGF-a favorece o crescimento epidermal, favorecendo a mutação de células mesenquimais (NIETO et al, 2003). A expressão da p53 citoplasmática está presente em 44% dos casos, em 81% dos casos a reação positiva para Mab240, anticorpo murino monoclonal que reconhece especificamente a p53 em fase mutada. 55% dos casos apresentaram expressão positiva para o anticorpo policlonal CM-1.
+A leucemia viral felina (FeLV), atua nesse processo como um vetor, pois transmite componentes genéticos do DNA, que resulta na formação de vírus com características oncogênicas. O vírus do sarcoma felino FeSv foi observado em fibrossarcomas em felinos, o FeSV necessita do FeLV para se proliferar, se o FeSv tiver relação com o surgimento, os gatos com FeLV seriam os únicos acometidos (OLGIVIE & MOORE, 2001), algo que não parece provável, uma vez que 130 fibrossarcomas vieram de animais FeLV negativos. Assim como o vírus da imunodeficiência felina (FIV) não foi encontrado por KIDNEY et al (2000; 2001) no RNA do sarcoma.
+
+
+
